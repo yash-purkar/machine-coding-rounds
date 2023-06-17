@@ -1,0 +1,52 @@
+.card-outer {
+  position: relative;
+}
+.book-card {
+  width: 200px;
+  height: 280px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.book-author {
+  font-size: 0.8rem;
+  color: gray;
+}
+.book-img {
+  width: 150px;
+  height: 200px;
+  border-radius: 0.5rem;
+}
+
+.move-options {
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50%;
+  background-color: lightgreen;
+}
+.select-box {
+  width: 20px;
+  padding: 0.5rem;
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #fff;
+}
+.move-to {
+  color: gray;
+  cursor: none;
+}
+
+option {
+  background-color: #fff;
+  color: #000;
+}
