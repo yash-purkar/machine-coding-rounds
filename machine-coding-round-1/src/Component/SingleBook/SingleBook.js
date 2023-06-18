@@ -1,18 +1,9 @@
 import { UseData } from "../../Context/DataContext";
 import "./SingleBook.css";
 export const SingleBook = ({ book }) => {
-  const {
-    dataState: { books },
-    dataDispatch
-  } = UseData();
+  const { dataDispatch } = UseData();
 
-  const { id, title, author, category, bookImg } = book;
-
-  const categories = books?.reduce(
-    (acc, curr) =>
-      acc.includes(curr.category) ? acc : [...acc, curr.category],
-    []
-  );
+  const { id, title, author, bookImg } = book;
 
   const handleCategoryChange = (e) => {
     dataDispatch({
