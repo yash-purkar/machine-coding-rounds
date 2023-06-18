@@ -35,7 +35,7 @@ export const SingleBook = ({ book }) => {
       <div className="move-options">
         <select onChange={handleCategoryChange} className="select-box">
           <option className="move-to">Move To...</option>
-          {categories?.map((category) => (
+          {["CurrentlyReading", "wantToRead", "read"]?.map((category) => (
             <option key={category} value={category}>
               {category === book?.category && `✔`} {category}
             </option>
