@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+}
+td {
+  padding: 0.5rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
