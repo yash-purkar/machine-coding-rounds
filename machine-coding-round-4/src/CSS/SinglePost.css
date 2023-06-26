@@ -1,0 +1,51 @@
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.upvote-downvote {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  align-self: flex-start;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.upvote,
+.downvote {
+  margin: 0.5rem 0rem;
+  font-size: 1.3rem;
+}
+
+.active-vote {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.user-info {
+  margin-bottom: 0.3rem;
+}
+
+.title {
+  margin-bottom: 0.3rem;
+}
+.tag-box {
+  margin-bottom: 1rem;
+}
+.tag {
+  /* border: 1px solid blueviolet; */
+  padding: 0rem 0.3rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-right: 0.9rem;
+  color: blueviolet;
+}
+.post-text {
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.comment-box {
+  margin: 1rem;
+}
