@@ -1,0 +1,33 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  gap: 25px;
+  background-color: #fff;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+
+  max-width: 300px;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  height: 50px;
+}
+
+.cancel {
+  margin-top: -18px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.cancel:hover {
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}

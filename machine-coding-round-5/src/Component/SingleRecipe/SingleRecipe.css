@@ -1,0 +1,48 @@
+.recipe-card {
+  width: 230px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.recipe-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+}
+.recipe-name {
+  color: blueviolet;
+  margin: 0.5rem 0;
+}
+
+.see-btn {
+  background-color: #fff;
+  border: none;
+}
+.see-btn:hover {
+  cursor: pointer;
+  color: blueviolet;
+}
+.buttons-box {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+.button {
+  background-color: aliceblue;
+  border: none;
+  font-size: 1.2rem;
+  margin: 0.3rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.edit-btn {
+  color: blueviolet;
+}
+.delete-btn {
+  color: red;
+}
