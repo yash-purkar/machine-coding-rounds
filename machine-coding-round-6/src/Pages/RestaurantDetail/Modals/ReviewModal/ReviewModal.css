@@ -1,0 +1,75 @@
+.review-form {
+  max-width: 500px;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.cancel-icon {
+  font-size: 1.3rem;
+  color: gray;
+  text-align: right;
+  margin-bottom: 1rem;
+  color: #ea4b4b;
+}
+.cancel-icon span:hover {
+  cursor: pointer;
+  color: red;
+}
+.add-review-text {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+}
+
+.rating-box {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+.rating-box select {
+  width: 8rem;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--font-clr);
+}
+
+.comment-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comment-box input {
+  width: 8rem;
+  color: var(--font-clr);
+  padding: 0.2rem;
+  border: 1px solid var(--font-clr);
+  outline: 1px solid aliceblue;
+  border-radius: 0.3rem;
+}
+.btn-box {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.submit-btn {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 0.3rem 0.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--primary);
+}
+
+@media (min-width: 720px) {
+  .cancel-icon span {
+    font-size: 1.7rem;
+  }
+  .submit-btn {
+    font-size: 1rem;
+  }
+}

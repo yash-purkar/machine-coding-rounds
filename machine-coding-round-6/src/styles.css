@@ -1,0 +1,11 @@
+:root {
+  --primary: #f59e0b;
+  --font-clr: gray;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
