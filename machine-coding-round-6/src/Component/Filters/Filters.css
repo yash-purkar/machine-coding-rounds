@@ -1,0 +1,33 @@
+.cuisine-heading {
+  text-align: center;
+  margin: 1rem;
+  color: var(--font-clr);
+}
+.cuisines-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cuisine-btn {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 0.3rem 0.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.cuisine-btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--primary);
+}
+
+@media (min-width: 720px) {
+  .cuisine-heading {
+    font-size: 1.7rem;
+  }
+  .cuisine-btn {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,15 @@
+.single-restaurant-container {
+  margin: 2rem 0;
+}
+.restaurant-name {
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--primary);
+  cursor: pointer;
+}
+.restaurant-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
