@@ -1,0 +1,21 @@
+import { createContext, useContext, useEffect, useReducer } from "react";
+import { data } from "../Data/Data";
+import { dataInitialState, dataReducer } from "../Reducer/DataReducer";
+
+export const DataContext = createContext();
+
+export const DataContextProvider = ({ children }) => {
+  const [dataState, dataDispatch] = useReducer(dataReducer, dataInitialState);
+
+  useEffect(() => {
+    dataDispatch({ type: "INITIALIZE_DATA", payload: data });
+  }, []);
+
+  return (
+    <DataContext.Provider value={{ dataState, dataDispatch }}>
+      {children}
+    </DataContext.Provider>
+  );
+};
+
+export const UseData = () => useContext(DataContext);
